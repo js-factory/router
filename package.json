@@ -1,0 +1,45 @@
+{
+  "name": "@js-factory/router",
+  "version": "0.0.1",
+  "description": "A routing module with functional programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-factory/router.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node.js",
+    "javascript",
+    "router",
+    "routing",
+    "expressjs",
+    "mvc",
+    "functional-programming",
+    "web application"
+  ],
+  "author": "js-factory",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/js-factory/router/issues"
+  },
+  "homepage": "https://github.com/js-factory/router#readme",
+  "dependencies": {
+    "ajv": "^6.7.0",
+    "csurf": "^1.9.0",
+    "debug": "^4.1.1",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "lodash": "^4.17.11",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.15.0"
+  }
+}

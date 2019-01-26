@@ -1,0 +1,82 @@
+{
+	"root": true,
+	"extends": [
+		"airbnb-base"
+	],
+	"env": {
+		"jest": true,
+		"node": true
+	},
+	"globals": {
+		"easeDispatch": true,
+		"Logger": true
+	},
+	"rules": {
+		"indent": [
+			2,
+			4
+		],
+		"no-console": 2,
+		"comma-dangle": 0,
+		"max-statements": [
+			2,
+			20
+		],
+		"max-len": 2,
+		"max-params": 2,
+		"max-depth": 2,
+		"func-names": 0,
+		"complexity": [
+			2,
+			10
+		],
+		"one-var": [
+			2,
+			"never"
+		],
+		"no-useless-rename": 2,
+		"arrow-body-style": [
+			2,
+			"as-needed"
+		],
+		"valid-jsdoc": [
+			1,
+			{
+				"prefer": {
+					"arg": "param",
+					"argument": "param",
+					"class": "constructor",
+					"return": "returns",
+					"virtual": "abstract"
+				},
+				"preferType": {
+					"Object": "object",
+					"Number": "number",
+					"String": "string",
+					"Boolean": "boolean"
+				}
+			}
+		],
+		"require-jsdoc": [
+			0,
+			{
+				"require": {
+					"FunctionDeclaration": true,
+					"MethodDefinition": true,
+					"ClassDeclaration": true,
+					"ArrowFunctionExpression": true
+				}
+			}
+		],
+		"prefer-destructuring": [
+			2,
+			{
+				"array": true,
+				"object": true
+			},
+			{
+				"enforceForRenamedProperties": true
+			}
+		]
+	}
+}
