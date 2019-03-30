@@ -1,6 +1,6 @@
 {
   "name": "@js-factory/router",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "A routing module with functional programming",
   "main": "index.js",
   "scripts": {
